@@ -6,7 +6,7 @@ import { ContactComponent } from './contact/contact.component';
 import { HomeComponent } from './home/home.component'; 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatMenuModule } from '@angular/material';
-import { SlideshowModule} from 'ng-simple-slideshow'
+import { SlideshowModule } from 'ng-simple-slideshow'
 
 @NgModule({
   declarations: [ AppComponent, ContactComponent, HomeComponent ],
