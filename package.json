@@ -23,6 +23,7 @@
     "@angular/platform-browser-dynamic": "^7.2.15",
     "@angular/router": "^7.2.15",
     "ajv": "^6.10.0",
+    "bootstrap": "^4.3.1",
     "core-js": "^2.6.5",
     "fstream": "^1.0.12",
     "lodash": "^4.17.15",
