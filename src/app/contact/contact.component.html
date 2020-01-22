@@ -4,16 +4,29 @@
 
 <div class="information">
   <form>
-  	First Name:<br>
-  	<input type="text" name="firstname"><br>
-  	Last Name:<br>
-  	<input type="text" name="lastname"><br>
-  	Email:<br>
-  	<input type="text" name="emailaddress"><br>
-    Phone Number:<br>
-    <input type="text" name="phonenumber"><br>
-  	Message:<br>
-  	<textarea name="message" rows="30" cols="75"></textarea><br>
-  	<input type="submit" value="Submit">
+    <div class="form-row">
+      <div class="form-group col-md-6">
+        <label for="inputFirstName">First Name</label>
+        <input type="text" class="form-control" placeholder="First Name">
+      </div>
+      <div class="form-group col-md-6">
+        <label for="inputLastName">Last Name</label>
+        <input type="text" class="form-control" placeholder="LastName">
+      </div>
+    </div>
+    <div class="form-row">
+      <div class="form-group col-md-12">
+        <label for="inputEmail">Email</label>
+        <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+      </div>
+      <div class="form-group col-md-4">
+        <label for="inputPhoneNumber">Phone Number</label>
+        <input type="tel" class="form-control" id="inputPhoneNumber" placeholder="Phone Number">
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="inputMessage">Message</label>
+      <textarea class="form-control" id="inputMessage" rows="10"></textarea>
+    </div>
   </form>
 </div>
