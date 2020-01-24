@@ -5,8 +5,7 @@ import { AppComponent } from './app.component';
 import { ContactComponent } from './contact/contact.component';
 import { HomeComponent } from './home/home.component'; 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MatMenuModule } from '@angular/material';
-import { SlideshowModule } from 'ng-simple-slideshow'
+import { MatMenuModule } from '@angular/material/menu';
 
 @NgModule({
   declarations: [ AppComponent, ContactComponent, HomeComponent ],
@@ -14,8 +13,7 @@ import { SlideshowModule } from 'ng-simple-slideshow'
     BrowserModule,
     BrowserAnimationsModule,
     MatMenuModule,
-    AppRoutingModule,
-    SlideshowModule
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [ AppComponent ]
