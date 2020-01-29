@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { FormsModule } from '@angular/forms';
+
+
+
 
 @Component({
   selector: 'app-contact',
@@ -8,9 +10,23 @@ import { FormsModule } from '@angular/forms';
 })
 export class ContactComponent implements OnInit {
 
+  emailMessage: {firstName, lastName, email, phoneNumber, message} = {firstName: '', lastName: '', email: '', phoneNumber: '', message: ''};
+  
   constructor() { }
 
   ngOnInit() {
+  }
+  
+  onSubmit(emailMessage) {
+    if(emailMessage.valid){
+      console.log(emailMessage.firstName);
+      console.log(emailMessage.lastName);
+      console.log(emailMessage.email);
+      console.log(emailMessage.phoneNumber);
+      console.log(emailMessage.message);
+      console.log(emailMessage);
+    }
+
   }
 
 }
