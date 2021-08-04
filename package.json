@@ -30,7 +30,7 @@
     "lodash": "^4.17.15",
     "node-sass": "^4.13.1",
     "rxjs": "^6.5.4",
-    "tar": "^4.4.13",
+    "tar": "^4.4.15",
     "zone.js": "~0.9.1"
   },
   "devDependencies": {
